@@ -87,6 +87,7 @@ main{/*chegamos no menu, definimos o maximo e o minimo da largura, o espaço ent
     max-width: 1000px;
     padding: 20px;
     margin: auto;
+    margin-bottom: 30px;
     width: 800px;
     background-color: white;
     box-shadow: 3px 5px 8px black;
@@ -112,6 +113,9 @@ main h2{/*apenas a fonte*/
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
+}
+main.img{
+    width: 100%;
 }
 main img.pequena{/*diminuimos aqui o tamanho da largura da imagem colocamos decimos que ela seria um bloco e colocamos ela centralizada com a pagina. */
     width: 50%;
@@ -140,7 +144,7 @@ div.video{
     margin-bottom: 30px;
     margin:0px -20px 30px -20px;
     padding: 20px;
-    padding-bottom: 59%;
+    padding-bottom: 58%;
     position: relative;
 }
 div.video > iframe{
@@ -148,7 +152,7 @@ div.video > iframe{
     top: 5%;
     left: 5%;
     width: 90%;
-    height:90%;
+    height: 90%;
 }
 aside{/*aqui mudamos a cor de fundo, espaçamento e craiamos a borda*/
     background-color: var(--cor1);
